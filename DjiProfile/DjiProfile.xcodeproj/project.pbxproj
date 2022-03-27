@@ -15,6 +15,7 @@
 		0D3ED9F427EE9CE6009CD614 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */; };
 		0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */; };
 		0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */; };
+		0D3ED9FA27F0BD41009CD614 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F927F0BD40009CD614 /* FavoriteButton.swift */; };
 		0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */; };
 		0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60E27EADCB700340C88 /* ContentView.swift */; };
 		0D9AD61127EADCB900340C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AD61027EADCB900340C88 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		0D3ED9F927F0BD40009CD614 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		0D9AD60927EADCB700340C88 /* DjiProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjiProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DjiProfileApp.swift; sourceTree = "<group>"; };
 		0D9AD60E27EADCB700340C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				0D9AD60E27EADCB700340C88 /* ContentView.swift */,
-				0D3ED9ED27EE9110009CD614 /* CircleImage.swift */,
-				0D3ED9EF27EE911C009CD614 /* MapView.swift */,
 				0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */,
 				0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */,
 				0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */,
@@ -76,6 +76,16 @@
 				0D3ED9E427ED69A9009CD614 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D3ED9FB27F0BE21009CD614 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ED9ED27EE9110009CD614 /* CircleImage.swift */,
+				0D3ED9EF27EE911C009CD614 /* MapView.swift */,
+				0D3ED9F927F0BD40009CD614 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		0D9AD60027EADCB700340C88 = {
@@ -101,6 +111,7 @@
 				0D3ED9EA27ED6C90009CD614 /* Resources */,
 				0D3ED9E927ED6C5B009CD614 /* Model */,
 				0D3ED9E827ED6C25009CD614 /* Views */,
+				0D3ED9FB27F0BE21009CD614 /* Helpers */,
 				0D9AD61027EADCB900340C88 /* Assets.xcassets */,
 				0D9AD61227EADCB900340C88 /* Preview Content */,
 			);
@@ -189,6 +200,7 @@
 				0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */,
 				0D3ED9F027EE911C009CD614 /* MapView.swift in Sources */,
 				0D3ED9EC27ED6EA4009CD614 /* ModelData.swift in Sources */,
+				0D3ED9FA27F0BD41009CD614 /* FavoriteButton.swift in Sources */,
 				0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */,
 				0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */,
 				0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */,

@@ -134,7 +134,7 @@
         "state": "Alaska",
         "id": 1009,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "State Recreation Area",
         "coordinates": {
             "longitude": -150.086103,
