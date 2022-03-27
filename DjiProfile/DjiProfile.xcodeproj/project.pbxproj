@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3ED9E527ED69A9009CD614 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D3ED9E427ED69A9009CD614 /* landmarkData.json */; };
+		0D3ED9E727ED69D6009CD614 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9E627ED69D6009CD614 /* Landmark.swift */; };
+		0D3ED9EC27ED6EA4009CD614 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9EB27ED6EA4009CD614 /* ModelData.swift */; };
+		0D3ED9EE27EE9110009CD614 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9ED27EE9110009CD614 /* CircleImage.swift */; };
+		0D3ED9F027EE911C009CD614 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9EF27EE911C009CD614 /* MapView.swift */; };
+		0D3ED9F427EE9CE6009CD614 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */; };
+		0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */; };
+		0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */; };
 		0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */; };
 		0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60E27EADCB700340C88 /* ContentView.swift */; };
 		0D9AD61127EADCB900340C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AD61027EADCB900340C88 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D3ED9E427ED69A9009CD614 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		0D3ED9E627ED69D6009CD614 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		0D3ED9EB27ED6EA4009CD614 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0D3ED9ED27EE9110009CD614 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0D3ED9EF27EE911C009CD614 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0D9AD60927EADCB700340C88 /* DjiProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjiProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DjiProfileApp.swift; sourceTree = "<group>"; };
 		0D9AD60E27EADCB700340C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +48,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3ED9E827ED6C25009CD614 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AD60E27EADCB700340C88 /* ContentView.swift */,
+				0D3ED9ED27EE9110009CD614 /* CircleImage.swift */,
+				0D3ED9EF27EE911C009CD614 /* MapView.swift */,
+				0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */,
+				0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */,
+				0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D3ED9E927ED6C5B009CD614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ED9E627ED69D6009CD614 /* Landmark.swift */,
+				0D3ED9EB27ED6EA4009CD614 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D3ED9EA27ED6C90009CD614 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ED9E427ED69A9009CD614 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0D9AD60027EADCB700340C88 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */,
-				0D9AD60E27EADCB700340C88 /* ContentView.swift */,
+				0D3ED9EA27ED6C90009CD614 /* Resources */,
+				0D3ED9E927ED6C5B009CD614 /* Model */,
+				0D3ED9E827ED6C25009CD614 /* Views */,
 				0D9AD61027EADCB900340C88 /* Assets.xcassets */,
 				0D9AD61227EADCB900340C88 /* Preview Content */,
 			);
@@ -127,6 +175,7 @@
 			files = (
 				0D9AD61427EADCB900340C88 /* Preview Assets.xcassets in Resources */,
 				0D9AD61127EADCB900340C88 /* Assets.xcassets in Resources */,
+				0D3ED9E527ED69A9009CD614 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */,
+				0D3ED9F027EE911C009CD614 /* MapView.swift in Sources */,
+				0D3ED9EC27ED6EA4009CD614 /* ModelData.swift in Sources */,
+				0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */,
+				0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */,
 				0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */,
+				0D3ED9E727ED69D6009CD614 /* Landmark.swift in Sources */,
+				0D3ED9F427EE9CE6009CD614 /* LandmarkRow.swift in Sources */,
+				0D3ED9EE27EE9110009CD614 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
