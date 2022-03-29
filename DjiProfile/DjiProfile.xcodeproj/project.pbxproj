@@ -16,6 +16,11 @@
 		0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */; };
 		0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */; };
 		0D3ED9FA27F0BD41009CD614 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ED9F927F0BD40009CD614 /* FavoriteButton.swift */; };
+		0D8F8C5227F1B42E00C70AEC /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F8C5127F1B42E00C70AEC /* HexagonParameters.swift */; };
+		0D8F8C5427F1B66D00C70AEC /* BadgeBackgroud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F8C5327F1B66D00C70AEC /* BadgeBackgroud.swift */; };
+		0D8F8C5627F200FB00C70AEC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F8C5527F200FB00C70AEC /* BadgeSymbol.swift */; };
+		0D8F8C5827F205DC00C70AEC /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F8C5727F205DC00C70AEC /* RotatedBadgeSymbol.swift */; };
+		0D8F8C5A27F208BB00C70AEC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F8C5927F208BB00C70AEC /* Badge.swift */; };
 		0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */; };
 		0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD60E27EADCB700340C88 /* ContentView.swift */; };
 		0D9AD61127EADCB900340C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AD61027EADCB900340C88 /* Assets.xcassets */; };
@@ -32,6 +37,11 @@
 		0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0D3ED9F927F0BD40009CD614 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		0D8F8C5127F1B42E00C70AEC /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		0D8F8C5327F1B66D00C70AEC /* BadgeBackgroud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackgroud.swift; sourceTree = "<group>"; };
+		0D8F8C5527F200FB00C70AEC /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		0D8F8C5727F205DC00C70AEC /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		0D8F8C5927F208BB00C70AEC /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		0D9AD60927EADCB700340C88 /* DjiProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjiProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9AD60C27EADCB700340C88 /* DjiProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DjiProfileApp.swift; sourceTree = "<group>"; };
 		0D9AD60E27EADCB700340C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,10 +63,10 @@
 		0D3ED9E827ED6C25009CD614 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D8F8C5B27F20BD200C70AEC /* Badges */,
+				0D8F8C5027F1B37700C70AEC /* Landmarks */,
+				0D3ED9FB27F0BE21009CD614 /* Helpers */,
 				0D9AD60E27EADCB700340C88 /* ContentView.swift */,
-				0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */,
-				0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */,
-				0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +98,28 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		0D8F8C5027F1B37700C70AEC /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ED9F327EE9CE6009CD614 /* LandmarkRow.swift */,
+				0D3ED9F527EEAC9F009CD614 /* LandmarkList.swift */,
+				0D3ED9F727EF09B0009CD614 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		0D8F8C5B27F20BD200C70AEC /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				0D8F8C5127F1B42E00C70AEC /* HexagonParameters.swift */,
+				0D8F8C5327F1B66D00C70AEC /* BadgeBackgroud.swift */,
+				0D8F8C5527F200FB00C70AEC /* BadgeSymbol.swift */,
+				0D8F8C5727F205DC00C70AEC /* RotatedBadgeSymbol.swift */,
+				0D8F8C5927F208BB00C70AEC /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		0D9AD60027EADCB700340C88 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +143,6 @@
 				0D3ED9EA27ED6C90009CD614 /* Resources */,
 				0D3ED9E927ED6C5B009CD614 /* Model */,
 				0D3ED9E827ED6C25009CD614 /* Views */,
-				0D3ED9FB27F0BE21009CD614 /* Helpers */,
 				0D9AD61027EADCB900340C88 /* Assets.xcassets */,
 				0D9AD61227EADCB900340C88 /* Preview Content */,
 			);
@@ -198,12 +229,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9AD60F27EADCB700340C88 /* ContentView.swift in Sources */,
+				0D8F8C5A27F208BB00C70AEC /* Badge.swift in Sources */,
 				0D3ED9F027EE911C009CD614 /* MapView.swift in Sources */,
 				0D3ED9EC27ED6EA4009CD614 /* ModelData.swift in Sources */,
 				0D3ED9FA27F0BD41009CD614 /* FavoriteButton.swift in Sources */,
+				0D8F8C5227F1B42E00C70AEC /* HexagonParameters.swift in Sources */,
+				0D8F8C5827F205DC00C70AEC /* RotatedBadgeSymbol.swift in Sources */,
+				0D8F8C5627F200FB00C70AEC /* BadgeSymbol.swift in Sources */,
 				0D3ED9F627EEAC9F009CD614 /* LandmarkList.swift in Sources */,
 				0D3ED9F827EF09B0009CD614 /* LandmarkDetail.swift in Sources */,
 				0D9AD60D27EADCB700340C88 /* DjiProfileApp.swift in Sources */,
+				0D8F8C5427F1B66D00C70AEC /* BadgeBackgroud.swift in Sources */,
 				0D3ED9E727ED69D6009CD614 /* Landmark.swift in Sources */,
 				0D3ED9F427EE9CE6009CD614 /* LandmarkRow.swift in Sources */,
 				0D3ED9EE27EE9110009CD614 /* CircleImage.swift in Sources */,
