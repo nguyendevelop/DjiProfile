@@ -29,6 +29,10 @@ struct Landmark: Hashable, Codable, Identifiable {
     var image : Image {
         Image(imageName)
     }
+    //
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
     
     private var coordinates: Coordinates
     //tính toán để tương tác với khung MapKit
